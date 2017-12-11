@@ -138,7 +138,22 @@ include 'header.html';
                <div class="twelve columns">
 
                   <h3>Hagerty Insurance Agency</h3>
-                  <p class="info">Test Engineer <span>&bull;</span> <em class="date">June 2017 - Present</em></p>
+                  <p class="info">Developer <span>&bull;</span> <em class="date">December 2017 - Present</em></p>
+
+                  <p>
+                  Work on the Automation release train to improve business processes across the board.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Hagerty Insurance Agency</h3>
+                  <p class="info">Test Engineer <span>&bull;</span> <em class="date">June - December 2017</em></p>
 
                   <p>
                   Work on the Apps Development team to improve processes, verify code changes, and collaborate with business stakeholders to ensure software results and performance.
