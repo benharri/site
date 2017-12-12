@@ -42,7 +42,7 @@ if ($_POST) {
    $from =  $name . " <" . $email . ">";
 
    // Email Headers
-	$headers = "From: tilde admin<admin@tilde.team>\r\n";
+	$headers = "From: admin<admin@benharri.com>\r\n";
 	$headers .= "Reply-To: ". $email . "\r\n";
  	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
