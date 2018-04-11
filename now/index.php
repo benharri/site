@@ -1,5 +1,5 @@
 <?php
-include "../header.html";
+include __DIR__."/../header.php";
 ?>
    <!-- Header
    ================================================== -->

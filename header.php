@@ -26,18 +26,18 @@
     <link rel="pgpkey" href="/keypub.txt">
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/media-queries.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/media-queries.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
 
     <!-- Script
    ================================================== -->
-    <script src="js/modernizr.js"></script>
+    <script src="/js/modernizr.js"></script>
 
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="/favicon.ico">
 
 </head>
 
