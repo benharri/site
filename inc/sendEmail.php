@@ -1,7 +1,7 @@
-﻿<?php
+<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'bharrismac@gmail.com';
+$siteOwnersEmail = 'benharri@pm.me';
 
 
 if ($_POST) {
@@ -12,6 +12,7 @@ if ($_POST) {
     $contact_message = trim(stripslashes($_POST['contactMessage']));
 
    // Check Name
+    $error = [];
 	if (strlen($name) < 2) {
 		$error['name'] = "Please enter your name.";
 	}
@@ -25,9 +26,9 @@ if ($_POST) {
 	}
    // Subject
 	if ($subject == '') {
-        $subject = "Contact Form Submission";
+        $subject = "benharr.is message from $name";
     } else {
-        $subject = "Contact Form Submission: $subject";
+        $subject = "benharr.is message from $name: $subject";
     }
 
 
@@ -42,13 +43,13 @@ if ($_POST) {
    $from =  $name . " <" . $email . ">";
 
    // Email Headers
-	$headers = "From: admin<admin@benharri.com>\r\n";
+	$headers = "From: admin<admin@gingko>\r\n";
 	$headers .= "Reply-To: ". $email . "\r\n";
  	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 
-    if (!$error) {
+    if (count($error) == 0) {
 
         ini_set("sendmail_from", $siteOwnersEmail); // for windows server
         $mail = mail($siteOwnersEmail, $subject, $message, $headers);
