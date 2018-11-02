@@ -55,12 +55,13 @@ include __DIR__."/../header.php";
                 <li>&bull; Learning C# and practicing Ruby</li>
                 <li>&bull; <del>Flying Drones</del> (cold isn't good for battery life, hopefully picking this back up once it's warmer out:)</li>
                 <li>&bull; Thinking of cool ideas for <a href="https://tilde.team">tilde.team</a></li>
-                <li>&bull; We have a <a href="https://tilde.team/discord/">Discord server</a> now!</li>
-                <li>&bull; Probably spending too much time on irc??? <a href="https://tilde.team/irc/">tilde-irc</a></li>
+                <li>&bull; Probably spending too much time on irc??? <a href="https://tilde.chat/">tilde-irc</a></li>
+                <li>&bull; Running stuff for the <a href="https://tildeverse.org/">tildeverse</a></li>
+                <li>&bull; Starting <a href="https://tilderadio.org/">tilderadio</a>, an internet radio station for the tildeverse</li>
                 <li>&bull; Looking for open source projects to contribute to. <a href="mailto:ben@tilde.team">Hit me up</a> if you have any ideas or suggestions.</li>
             </ul>
 
-            <p>Updated April 10th, 2018</p>
+            <p>Updated November 2nd, 2018</p>
 
          </div> <!-- end .main-col -->
 

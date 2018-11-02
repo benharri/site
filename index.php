@@ -72,6 +72,10 @@ include 'header.php';
                     travel and have lived in Ecuador and Switzerland.
                 </p>
 
+                <p>
+                    I run a public access unix system: <a href="https://tilde.team">tilde.team</a> and have been working on a multi-tilde collaborative effort to provide cool open-source services at the <a href="https://tildeverse.org">tildeverse</a>. Check out <a href="https://tilde.team/~ben/">my tilde page</a>!
+                </p>
+
                 <p>Check out what I'm up to
                     <a href="/now">now</a>.</p>
 
@@ -237,11 +241,11 @@ include 'header.php';
                         <h3>Iron Fish Distillery</h3>
                         <p class="info">App Developer/Webmaster
                             <span>&bull;</span>
-                            <em class="date">June 2016 - Present</em>
+                            <em class="date">June 2016 - June 2018</em>
                         </p>
 
                         <p>
-                            Build and maintain several web applications for internal use. Also in charge of maintenance of the current Wordpress site.
+                            Build and maintain several web applications for internal use. Also in charge of maintenance of the Wordpress site.
                         </p>
 
                     </div>
@@ -342,80 +346,15 @@ include 'header.php';
 
             <div class="ten columns">
 
-                <p class="lead">Let me know if you have any cool ideas or want to work together on something! Feel free to send me a message
-                    on
-                    <a href="https://t.me/bharris">Telegram</a> or send me an email with this form here.</p>
+                <p class="lead">
+Let me know if you have any cool ideas or want to work together on something! Feel free to send me a message on irc (benharri on freenode, ben on <a href="https://tilde.chat">tilde.chat</a>) or shoot me an email (ben at this domain).
+</p>
 
             </div>
 
         </div>
 
-        <div class="row">
 
-            <div class="eight columns">
-
-                <!-- form -->
-                <form action="" method="post" id="contactForm" name="contactForm">
-                    <fieldset>
-
-                        <div>
-                            <label for="contactName">Name
-                                <span class="required">*</span>
-                            </label>
-                            <input type="text" value="" size="35" id="contactName" name="contactName">
-                        </div>
-
-                        <div>
-                            <label for="contactEmail">Email
-                                <span class="required">*</span>
-                            </label>
-                            <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                        </div>
-
-                        <div>
-                            <label for="contactSubject">Subject</label>
-                            <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                        </div>
-
-                        <div>
-                            <label for="contactMessage">Message
-                                <span class="required">*</span>
-                            </label>
-                            <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                        </div>
-
-                        <div>
-                            <button class="submit">Submit</button>
-                            <span id="image-loader">
-                                <img alt="" src="images/loader.gif">
-                            </span>
-                        </div>
-
-                    </fieldset>
-                </form>
-                <!-- Form End -->
-
-                <!-- contact-warning -->
-                <div id="message-warning"> Error boy</div>
-                <!-- contact-success -->
-                <div id="message-success">
-                    <i class="fa fa-check"></i>Your message was sent, thank you!
-                    <br>
-                </div>
-
-            </div>
-
-
-            <aside class="four columns footer-widgets">
-
-                <div class="widget widget_contact">
-
-                    <h4>Hi!</h4>
-                    <p>I look forward to hearing from you!</p>
-
-                </div>
-
-            </aside>
 
         </div>
 
