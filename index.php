@@ -83,7 +83,7 @@ include 'header.php';
 
                     <div class="columns download">
                         <p>
-                            <a href="/resume.pdf" class="button">
+                            <a href="https://tildegit.org/ben/resume/raw/branch/master/resume.pdf" class="button">
                                 <i class="fa fa-download"></i>Download/View Resume</a>
                         </p>
                     </div>
