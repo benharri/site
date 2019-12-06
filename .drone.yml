@@ -15,5 +15,5 @@ steps:
     - name: hello
       commands:
           - echo hello world
-          - head -n5 ~/insults.txt
+          - head -n5 /home/ben/insults.txt
 
