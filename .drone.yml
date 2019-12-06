@@ -11,6 +11,9 @@ server:
     ssh_key:
         from_secret: ssh_key
 
+clone:
+    disable: true
+
 steps:
     - name: hello
       commands:
