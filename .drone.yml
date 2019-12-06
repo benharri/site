@@ -14,6 +14,7 @@ server:
 steps:
     - name: hello
       commands:
-          - echo hello world
-          - head -n5 /home/ben/insults.txt
+          - cd /var/www/benharr.is
+          - git status
+          - sudo -u www-data git pull origin master
 
