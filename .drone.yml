@@ -15,6 +15,5 @@ steps:
     - name: hello
       commands:
           - cd /var/www/benharr.is
-          - git status
           - sudo -u www-data git pull origin master
 
