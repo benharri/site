@@ -1,141 +1,50 @@
 <?php
-include 'header.php';
+$title = "home";
+include "header.php";
 ?>
-    <!-- Header
-   ================================================== -->
-    <header id="home">
 
-        <nav id="nav-wrap">
+<h2>i'm a software developer</h2>
+<p>i write code and do stuff on the internet</p>
 
-            <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+<h3>about me</h3>
+<p>
+    i grew up in the upper peninsula of michigan, received a 
+    bachelor's in computer science from northern michigan university, 
+    and now work professionally as a software developer in traverse 
+    city, michigan.
+</p>
+<p>
+    i like building software and community through code and sysadmin 
+    tools. my current day job involves writing c# for desktop 
+    applications. my primary hobby project is <a href="https://tilde.team/">
+    tilde.team</a>, a non-commercial public access unix system focused
+    on teaching, learning, and building community.
+</p>
+<p>
+    some fun facts about me:
+</p>
+<ul>
+    <li>i'm left handed</li>
+    <li>i love to travel and have lived in ecuador and switzerland</li>
+    <li>i tend to avoid uppercase letters if i can help it</li>
+</ul>
 
-            <ul id="nav" class="nav">
-                <li class="current">
-                    <a class="smoothscroll" href="#home">Home</a>
-                </li>
-                <li>
-                    <a class="smoothscroll" href="#about">About</a>
-                </li>
-                <li>
-                    <a class="smoothscroll" href="#contact">Contact</a>
-                </li>
-                <li>
-                    <a href="https://tildegit.org/ben/resume/raw/branch/master/resume.pdf">Resume</a>
-                </li>
-            </ul>
-            <!-- end #nav -->
+<h3>projects</h3>
 
-        </nav>
-        <!-- end #nav-wrap -->
+<p>besides tilde.team, i'm also involved in several other projects, including:</p>
+<ul>
+    <li><a href="https://tildeverse.org">the tildeverse</a></li>
+    <li>the original <a href="https://tilde.club"><em>tilde</em></a>, reborn</li>
+    <li><a href="https://hashbang.sh">hashbang</a></li>
+</ul>
 
-        <div class="row banner">
-            <div class="banner-text">
-                <h1 class="responsive-headline">Hello,
-                    <br>I'm Benjamin Harris</h1>
-                <hr>
-                <h3>
-                    <a class="smoothscroll" href="#about">I'm a Michigan-based software developer. Scroll down to learn more.</a>
-                </h3>
-                <hr />
-                <?php include 'social.html'; ?>
-            </div>
-        </div>
+<h3>contact</h3>
+<p>
+    feel free to get in touch via any of the links at the top, or preferably, drop
+    me a line on irc (if i'm not around, i'll see it soon™). i'm <code>benharri</code>
+    on <a href="https://freenode.net/">freenode</a> and <code>ben</code> on 
+    <a href="https://tilde.chat">tilde.chat</a>
+</p>
 
-        <p class="scrolldown">
-            <a class="smoothscroll" href="#about">
-                <i class="icon-down-circle"></i>
-            </a>
-        </p>
-
-    </header>
-    <!-- Header End -->
-
-
-    <!-- About Section
-   ================================================== -->
-    <section id="about">
-
-        <div class="row">
-
-            <div class="three columns">
-
-                <img class="profile-pic" src="images/profilepic.jpg" alt="" />
-
-            </div>
-
-            <div class="nine columns main-col">
-
-                <h2>About Me</h2>
-
-                <p>
-                    I studied computer science at Northern Michigan University. 
-                    I like writing code and doing sysadmin work. I love to
-                    travel and have lived in Ecuador and Switzerland.
-                </p>
-
-                <p>
-                    I run a public access unix system: <a href="https://tilde.team">tilde.team</a> and have been working on a multi-tilde collaborative effort to provide cool open-source services at the <a href="https://tildeverse.org">tildeverse</a>. Check out <a href="https://tilde.team/~ben/">my tilde page</a>!
-                </p>
-
-                <p>Check out what I'm up to
-                    <a href="/now/">now</a>.</p>
-
-                <div class="row">
-
-                    <div class="columns download">
-                        <p>
-                            <a href="https://tildegit.org/ben/resume/raw/branch/master/resume.pdf" class="button">
-                                <i class="fa fa-download"></i>Download/View Resume</a>
-                        </p>
-                    </div>
-
-                </div>
-                <!-- end row -->
-
-            </div>
-            <!-- end .main-col -->
-
-        </div>
-
-    </section>
-    <!-- About Section End-->
-
-
-    <!-- Contact Section
-   ================================================== -->
-    <section id="contact">
-
-        <div class="row section-head">
-
-            <div class="two columns header-col">
-
-                <h1>
-                    <span>Get In Touch.</span>
-                </h1>
-
-            </div>
-
-            <div class="ten columns">
-
-                <p class="lead">
-                    Let me know if you have any cool ideas or want to work 
-                    together on something! Feel free to send me a message 
-                    on irc (benharri on freenode, ben on <a href="https://tilde.chat">tilde.chat</a>) 
-                    or shoot me an email (ben at this domain).
-                </p>
-
-            </div>
-
-        </div>
-
-
-
-        </div>
-
-    </section>
-    <!-- Contact Section End-->
-
-
-    <?php include 'footer.php';
-
+<?php
+include "footer.php";
