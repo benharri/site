@@ -252,6 +252,23 @@ a[href*="//"]:after {
   opacity: .25;
 }
 
+a[href^="mailto:"]:after {
+  font-weight: 300;
+  font-size: .85em;
+  content: "\2709";
+  color: var(--textcolor);
+  opacity: .25;
+}
+a[href^="xmpp:"]:after {
+  font-weight: 300;
+  font-size: .85em;
+  content: "\1F5EA";
+  color: var(--textcolor);
+  opacity: .25;
+}
+
+a[href^="mailto:"]:hover:after,
+a[href^="xmpp:"]:hover:after,
 a[href*="//"]:hover:after {
   color: var(--highlight);
   opacity: 1;
@@ -262,22 +279,21 @@ a[href*="//"]:hover:after {
 a:before {
   font-size: .7em;
   margin-right: .4em;
+  opacity: .75;
 }
 
 /* Add more filetypes here if you want */
 
-a[href$=".pdf"]:before { content: "PDF"; }
-a[href$=".txt"]:before { content: "TXT"; }
-a[href$=".mp3"]:before { content: "MP3"; }
-a[href$=".zip"]:before { content: "ZIP"; }
-a[href$=".rar"]:before { content: "RAR"; }
+a[href$=".pdf"]:before { content: "pdf"; }
+a[href$=".txt"]:before { content: "txt"; }
+a[href$=".mp3"]:before { content: "mp3"; }
+a[href$=".zip"]:before { content: "zip"; }
+a[href$=".rar"]:before { content: "rar"; }
 a[href$=".jpeg"]:before,
 a[href$=".jpg"]:before,
 a[href$=".gif"]:before,
-a[href$=".png"]:before { content: "IMG"; }
-a[href$=".asc"]:before { content: "\1F511"; }
-a[href^="mailto:"]:before { content: "\2709"; }
-a[href^="xmpp:"]:before { content: "\1F5EA"; }
+a[href$=".png"]:before { content: "img"; }
+a[href$=".asc"]:before { content: "asc"; }
 
 /* ------- News ------- */
 
