@@ -1,24 +1,16 @@
 * { margin: 0; padding: 0; box-sizing: border-box;
-  
+
   /* Color scheme */
-  
-  --textcolor: #121212;
-  --bgcolor: #fff;
-  --highlight: #2749c9;
 
-}
+  --textcolor: #dadada;
+  --bgcolor: #141414;
+  --highlight: #ffc400;
 
-@media (prefers-color-scheme: dark) {
-  * {
-    --textcolor: #dadada;
-    --bgcolor: #141414;
-    --highlight: #ffc400;
-  }
 }
 
 body {
   font-size: 18px;
-  font-family: system-ui, sans-serif;
+  font-family: 'JetBrains Mono', ui-monospace, 'Courier New', Courier, monospace;
   line-height: 1.4;
   color: var(--textcolor);
   background: var(--bgcolor);
@@ -102,7 +94,7 @@ ul {
 }
 
 ul li::marker {
-  content: "\2022   ";
+  content: "\2022 ";
 }
 
 li {
@@ -162,9 +154,8 @@ img, svg, video, audio {
   height: auto;
   fill: currentColor;
 }
-  
+
 code, textarea {
-  font-family: ui-monospace, SF Mono, Menlo, Monaco, Andale Mono, monospace;
   font-size: 1em;
   opacity: .7;
 }
@@ -253,7 +244,7 @@ section:target iframe {
 
 /* External links */
 
-a[href*="//"]:after { 
+a[href*="//"]:after {
   font-weight: 300;
   font-size: .85em;
   content: "\2197"; /* top right arrow: ↗ */
@@ -268,7 +259,7 @@ a[href*="//"]:hover:after {
 
 /* File links */
 
-a:before { 
+a:before {
   font-size: .7em;
   margin-right: .4em;
 }
@@ -284,6 +275,9 @@ a[href$=".jpeg"]:before,
 a[href$=".jpg"]:before,
 a[href$=".gif"]:before,
 a[href$=".png"]:before { content: "IMG"; }
+a[href$=".asc"]:before { content: "\1F511"; }
+a[href^="mailto:"]:before { content: "\2709"; }
+a[href^="xmpp:"]:before { content: "\1F5EA"; }
 
 /* ------- News ------- */
 
@@ -445,22 +439,22 @@ article time {
 /* ------- Print ------- */
 
 @media print {
-  
+
   nav, .lightbox:target:after { display: none; }
-  
+
   article, figure, img {
     page-break-inside: avoid;
     break-inside: avoid;
   }
-  
+
   /* Inline footnotes */
-  
+
   label + input + small { display: inline; }
   label + input + small:before { content: "["; }
   label + input + small:after { content: "]"; }
-  
+
   /* Slides */
-  
+
   .slides, .slides figure {
     position: relative;
     height: auto;
@@ -475,5 +469,5 @@ article time {
     height: 100vh;
     object-fit: contain;
   }
-    
+
 }
