@@ -10,7 +10,7 @@
 
 body {
   font-size: 18px;
-  font-family: 'JetBrains Mono', ui-monospace, 'Courier New', Courier, monospace;
+  font-family: 'JetBrains Mono', 'Input Mono', monospace;
   line-height: 1.4;
   color: var(--textcolor);
   background: var(--bgcolor);
