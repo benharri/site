@@ -1,11 +1,11 @@
-* { margin: 0; padding: 0; box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   /* Color scheme */
-
   --textcolor: #dadada;
   --bgcolor: #141414;
   --highlight: #ffc400;
-
 }
 
 body {
@@ -20,7 +20,6 @@ body {
 }
 
 /* ------- Sections ------- */
-
 section {
   padding: calc(6em + 5vw) 5vw 8vw 5vw;
   /* ! Everything below is needed ! */
@@ -41,7 +40,6 @@ section#home { /* Show #home by default */
 }
 
 /* ------- Header ------- */
-
 header {
   padding: 5vw 5vw 0 5vw;
   display: flex;
@@ -63,7 +61,6 @@ nav a:not(:last-of-type) {
 }
 
 /* ------- General ------- */
-
 a {
   text-decoration: none;
   color: var(--highlight);
@@ -181,7 +178,6 @@ pre, textarea { /* for code samples */
 }
 
 /* Inline footnotes */
-
 label {
   cursor: pointer;
   vertical-align: super;
@@ -220,7 +216,6 @@ figure figcaption {
 }
 
 /* Responsive video embeds */
-
 figure.video {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -243,7 +238,6 @@ section:target iframe {
 }
 
 /* External links */
-
 a[href*="//"]:after {
   font-weight: 300;
   font-size: .85em;
@@ -259,6 +253,7 @@ a[href^="mailto:"]:after {
   color: var(--textcolor);
   opacity: .25;
 }
+
 a[href^="xmpp:"]:after {
   font-weight: 300;
   font-size: .85em;
@@ -275,7 +270,6 @@ a[href*="//"]:hover:after {
 }
 
 /* File links */
-
 a:before {
   font-size: .7em;
   margin-right: .4em;
@@ -283,7 +277,6 @@ a:before {
 }
 
 /* Add more filetypes here if you want */
-
 a[href$=".pdf"]:before { content: "pdf"; }
 a[href$=".txt"]:before { content: "txt"; }
 a[href$=".mp3"]:before { content: "mp3"; }
@@ -296,7 +289,6 @@ a[href$=".png"]:before { content: "img"; }
 a[href$=".asc"]:before { content: "asc"; }
 
 /* ------- News ------- */
-
 article + article {
   margin-top: 4.5em;
 }
@@ -314,7 +306,6 @@ article time {
 }
 
 /* ------- Images Grid ------- */
-
 .grid {
   display: grid;
   grid-gap: 5vmin;
@@ -348,7 +339,6 @@ article time {
 }
 
 /* ------- Slideshow ------- */
-
 .slides {
   position: fixed;
   top: 0;
@@ -387,7 +377,6 @@ article time {
 }
 
 /* ------- Lightbox ------- */
-
 .lightbox {
   display: none;
   color: var(--textcolor);
@@ -443,7 +432,6 @@ article time {
 }
 
 /* ------- Smaller screens ------- */
-
 @media only screen and (max-width: 680px) {
   body { font-size: 16px; }
 }
@@ -453,9 +441,7 @@ article time {
 }
 
 /* ------- Print ------- */
-
 @media print {
-
   nav, .lightbox:target:after { display: none; }
 
   article, figure, img {
@@ -464,13 +450,11 @@ article time {
   }
 
   /* Inline footnotes */
-
   label + input + small { display: inline; }
   label + input + small:before { content: "["; }
   label + input + small:after { content: "]"; }
 
   /* Slides */
-
   .slides, .slides figure {
     position: relative;
     height: auto;
@@ -485,5 +469,4 @@ article time {
     height: 100vh;
     object-fit: contain;
   }
-
 }
