@@ -200,11 +200,10 @@ label + input + small {
 
 input:checked + small {
   display: block;
-  padding: .8em 0 1em 2.5vw;;
+  padding: .8em 0 1em 2.5vw;
 }
 
 /* Figures */
-
 figure {
   margin: 2em 0 1.5em 0;
 }
