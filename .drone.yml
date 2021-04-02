@@ -21,6 +21,5 @@ trigger:
 steps:
     - name: hello
       commands:
-          - cd /var/www/benharr.is
-          - sudo -Hu www-data git pull origin master
+          - sudo -Hu www-data git -C /var/www/benharr.is pull --rebase origin master
 
